@@ -41,7 +41,7 @@ API_TOKEN = "your-secret-token"
 python app.py
 ```
 
-Aplikasi akan berjalan di: http://localhost:5000/admin?token=xxx |<br>#http://192.168.x.x:5000/admin?token=xxx
+Aplikasi akan berjalan di: http://localhost:5000/admin?token=xxx |<br>http://192.168.x.x:5000/admin?token=xxx
 
 ## 🔐 Autentikasi
 
