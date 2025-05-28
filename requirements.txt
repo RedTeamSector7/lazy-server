@@ -1,0 +1,6 @@
+Flask
+requests
+geoip2
+pynput
+eventlet
+flask-socketio
