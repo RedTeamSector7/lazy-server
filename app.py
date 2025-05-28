@@ -8,7 +8,6 @@ from flask import ( # type: ignore
     url_for,
     redirect,
     send_from_directory,
-    Response
 )
 from datetime import datetime, timedelta
 import datetime as dt  # Rename the module import
@@ -563,8 +562,6 @@ def upload_file():
         200,
     )
 
-commands = {}
-
 @app.route("/admin", methods=["GET"])
 def admin():
     token = request.args.get("token")
@@ -623,7 +620,6 @@ def admin():
         token=token,
         unique_hosts=unique_hosts,
         active_hosts=active_hosts,
-        commands=commands,
     )
 
 
