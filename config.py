@@ -1,1 +1,1 @@
-API_TOKEN = "lazarus"
+API_TOKEN = ""#Edit
