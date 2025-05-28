@@ -1,4 +1,4 @@
-# 🔥 C2C Panel - Flask-based Command & Control Interface
+# 🔥 C2C Panel - Command & Control Interface
 
 Panel web ini berfungsi sebagai pusat kendali untuk menerima informasi dari client, menampilkan lokasi perangkat, menyimpan file log, serta mengirimkan perintah ke client.
 
@@ -9,7 +9,6 @@ Panel web ini berfungsi sebagai pusat kendali untuk menerima informasi dari clie
 - Tampilan keylogger log
 - Panel berbasis Web dengan peta interaktif (Leaflet)
 - Komunikasi real-time via WebSocket (Flask-SocketIO)
-- Kirim perintah eksekusi jarak jauh ke client
 
 ## 🛠️ Instalasi
 
