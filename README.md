@@ -15,8 +15,8 @@ Panel web ini berfungsi sebagai pusat kendali untuk menerima informasi dari clie
 1. **Clone repo ini**
 
 ```bash
-git clone https://github.com/yourusername/yourrepo.git
-cd yourrepo
+git clone https://github.com/RedTeamSector7/lazy-server.git
+cd lazy-server
 ```
 
 2. **Install dependencies**
@@ -41,7 +41,7 @@ API_TOKEN = "your-secret-token"
 python app.py
 ```
 
-Aplikasi akan berjalan di: [http://localhost:5000](http://localhost:5000)
+Aplikasi akan berjalan di: [http://localhost:5000] #http://192.168.x.x:5000/admin?token=xxx
 
 ## 🔐 Autentikasi
 
